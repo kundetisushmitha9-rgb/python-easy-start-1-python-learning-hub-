@@ -1,0 +1,149 @@
+Python-Learning-Hub/
+│── index.html
+│── about.html
+│── lessons.html
+│── quiz.html
+│── contact.html
+│── style.css
+│── script.js
+
+body{
+font-family:Arial;
+margin:0;
+background:#f4f4f4;
+}
+
+header{
+background:#222;
+color:white;
+padding:20px;
+text-align:center;
+}
+
+nav a{
+color:white;
+margin:10px;
+text-decoration:none;
+}
+
+.hero{
+padding:60px;
+text-align:center;
+}
+
+button{
+padding:12px 20px;
+background:orange;
+border:none;
+color:white;
+cursor:pointer;
+font-size:18px;
+}
+function startLearning(){
+window.location="lessons.html";
+}
+<!DOCTYPE html>
+<html>
+<head>
+<title>About</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<h1>About Python Learning Hub</h1>
+</header>
+
+<section class="hero">
+
+<p>
+Python Learning Hub is a beginner-friendly website
+that helps students learn Python programming through
+simple lessons and quizzes.
+</p>
+
+</section>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+<title>Lessons</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<h1>Python Lessons</h1>
+</header>
+
+<section class="hero">
+
+<h2>Lesson 1</h2>
+<p>Introduction to Python</p>
+
+<h2>Lesson 2</h2>
+<p>Variables and Data Types</p>
+
+<h2>Lesson 3</h2>
+<p>Loops</p>
+
+<h2>Lesson 4</h2>
+<p>Functions</p>
+
+</section>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+<title>Quiz</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<h1>Quiz</h1>
+</header>
+
+<section class="hero">
+
+<p>Q1. Python is a ______ language.</p>
+
+<button>Programming</button>
+
+</section>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+<title>Contact</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<h1>Contact Us</h1>
+</header>
+
+<section class="hero">
+
+<p>Email: support@pythonhub.com</p>
+
+</section>
+
+</body>
+</html>
+# Python Learning Hub
+
+A beginner-friendly website to learn Python programming with lessons, quizzes, and practice exercises.
+
+Created by: Sushmitha
